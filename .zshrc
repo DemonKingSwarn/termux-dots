@@ -1,5 +1,7 @@
 export PATH="$PATH:$HOME/.local/bin"
 
+alias stow='stow --ignore=readme.md --ignore=.assets'
+
 # history
 
 HISTSIZE=10000
