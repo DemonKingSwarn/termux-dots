@@ -6,7 +6,7 @@
 
 ```sh
 git clone https://github.com/DemonKingSwarn/termux-dots ~/.dots
-pkg in stow zsh fzf starship
+pkg in stow zsh fzf starship figlet
 cd ~/.dots
 stow .
 chsh -s zsh

@@ -64,3 +64,4 @@ eval "$(fzf --zsh)"
 eval "$(starship init zsh)"
 
 clear
+figlet "fsociety"
