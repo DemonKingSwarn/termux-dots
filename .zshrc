@@ -2,6 +2,16 @@ export PATH="$PATH:$HOME/.local/bin"
 
 alias stow='stow --ignore=readme.md --ignore=.assets'
 
+alias ls='eza --icons --group-directories-first'
+alias ll='eza -lgh --icons --group-directories-first'
+alias la='eza -lagh --icons --group-directories-first'
+alias tree='eza --icons -T'
+
+alias cat="bat --paging=never"
+alias less="bat --paging=always"
+
+alias wget='wcurl'
+
 # history
 
 HISTSIZE=10000
