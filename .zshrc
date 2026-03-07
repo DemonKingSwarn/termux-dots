@@ -12,6 +12,11 @@ alias less="bat --paging=always"
 
 alias wget='wcurl'
 
+alias pst='termux-clipboard-get'
+alias cpy='termux-clipboard-set'
+
+alias open='termux-open'
+
 # history
 
 HISTSIZE=10000
