@@ -1,6 +1,6 @@
 export PATH="$PATH:$HOME/.local/bin"
 
-alias stow='stow --ignore=readme.md --ignore=.assets'
+alias stow='stow --ignore=readme.md --ignore=.assets --ignore=install.sh'
 
 alias ls='eza --icons --group-directories-first'
 alias ll='eza -lgh --icons --group-directories-first'
