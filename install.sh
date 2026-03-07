@@ -2,7 +2,7 @@
 
 printf "%s\n" "setting up termux for you"
 
-pkg in termux-api fastfetch stow zsh fzf starship figlet eza zoxide bat -y > /dev/null
+pkg in termux-api termux-services fastfetch stow zsh fzf starship figlet eza zoxide bat -y > /dev/null
 
 printf "%s\n" "applying dotfiles"
 

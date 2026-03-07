@@ -32,7 +32,7 @@ set clipboard=unnamedplus " Link to Termux clipboard
 
 " --- LIGHTLINE CONFIG ---
 let g:lightline = {
-      \ 'colorscheme': 'onedark',
+            \ 'colorscheme': 'catppuccin',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'readonly', 'filename', 'modified' ] ]
@@ -43,5 +43,3 @@ let g:lightline = {
 let mapleader = " "
 nnoremap <leader>w :w<cr>
 nnoremap <leader>q :q<cr>
-" Quick escape
-inoremap jj <Esc>
