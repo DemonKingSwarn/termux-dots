@@ -70,6 +70,7 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview "eza $realpath"
 
 # shell integration
 
+eval "$(zoxide init zsh --cmd cd)"
 eval "$(fzf --zsh)"
 eval "$(starship init zsh)"
 
