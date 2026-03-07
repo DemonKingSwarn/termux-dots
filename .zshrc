@@ -74,5 +74,3 @@ eval "$(zoxide init zsh --cmd cd)"
 eval "$(fzf --zsh)"
 eval "$(starship init zsh)"
 
-clear
-figlet "fsociety"
