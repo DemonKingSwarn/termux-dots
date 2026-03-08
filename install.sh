@@ -1,8 +1,10 @@
 #!/data/data/com.termux/files/usr/bin/sh
 
+pkgs="termux-api termux-services vim fastfetch stow openssh zsh fzf starship figlet eza zoxide bat"
+
 printf "%s\n" "setting up termux for you"
 
-pkg in termux-api termux-services vim fastfetch stow openssh zsh fzf starship figlet eza zoxide bat -y > /dev/null
+pkg in $pkgs -y > /dev/null
 
 sv-enable sshd
 sv start sshd
