@@ -6,6 +6,8 @@ mkdir -p $zsh_history_dir
 
 touch $zsh_history_dir/history
 
+mkdir -p $HOME/.local/share $HOME/.local/bin
+
 pkgs="nala termux-api termux-services vim fastfetch stow openssh zsh fzf starship figlet eza zoxide bat"
 
 printf "%s\n" "setting up termux for you"
