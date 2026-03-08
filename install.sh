@@ -4,7 +4,7 @@ pkgs="termux-api termux-services vim fastfetch stow openssh zsh fzf starship fig
 
 printf "%s\n" "setting up termux for you"
 
-pkg in $pkgs -y > /dev/null
+pkg in -y $pkgs > /dev/null
 
 sv-enable sshd
 sv start sshd
