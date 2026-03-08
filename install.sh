@@ -1,5 +1,11 @@
 #!/data/data/com.termux/files/usr/bin/sh
 
+zsh_history_dir="$HOME/.cache/zsh"
+
+mkdir -p $zsh_history_dir
+
+touch $zsh_history_dir/history
+
 pkgs="nala termux-api termux-services vim fastfetch stow openssh zsh fzf starship figlet eza zoxide bat"
 
 printf "%s\n" "setting up termux for you"
