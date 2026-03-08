@@ -1,6 +1,7 @@
 export PATH="$PATH:$HOME/.local/bin"
 
 alias apt='nala'
+alias pkg='nala'
 
 alias stow='stow --ignore=readme.md --ignore=.assets --ignore=install.sh'
 
