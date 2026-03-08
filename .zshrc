@@ -1,5 +1,7 @@
 export PATH="$PATH:$HOME/.local/bin"
 
+alias apt='nala'
+
 alias stow='stow --ignore=readme.md --ignore=.assets --ignore=install.sh'
 
 alias ls='eza --icons --group-directories-first'

@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/sh
 
-pkgs="termux-api termux-services vim fastfetch stow openssh zsh fzf starship figlet eza zoxide bat"
+pkgs="nala termux-api termux-services vim fastfetch stow openssh zsh fzf starship figlet eza zoxide bat"
 
 printf "%s\n" "setting up termux for you"
 
